@@ -94,23 +94,27 @@ h1{
     margin-bottom: 157px;
 }
 
-.about__inner{
+.about__inner,
+.people__inner{
     text-align: center;
     margin-bottom: 85px;
 }
 
-.about__inner span{
+.about__inner span,
+.people__inner span{
     display: inline-block;
     color: #747a7f;
     font-size: 44px;
     font-weight: 600;
 }
 
-.about__subcontent span{
+.about__subcontent span,
+.people__subcontent span{
     margin-bottom: 57px;
 }
 
-.about__subcontent p{
+.about__subcontent p,
+.people__subcontent p{
     font-size: 18px;
     font-weight: 300;
     color: #021725;
@@ -119,7 +123,8 @@ h1{
 }
 
 
-.about__subtitle{
+.about__subtitle,
+.people__subtitle{
     font-size: 13px;
     font-weight: 600;
     color: #d4af37;
@@ -162,4 +167,44 @@ h1{
     margin-bottom: 153px;
 }
 
+.people__supcontent{
+    display: flex;
+    justify-content: space-between;
+}
 
+.work__subtitle{
+    color: #d4af37;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 22px;
+}
+
+.contact__face{
+    background-color: #f9f9f9;
+}
+
+.title__people{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 19px 49px 19px;
+}
+
+.name__title{
+    display: flex;
+    justify-content: flex-start;
+    color: #676d73;
+    font-size: 21px;
+    margin-bottom: 21px
+}
+
+.people__text{
+    text-align: left;
+    width: 200px;
+    line-height: 1.7;
+    font-size: 13px;
+    font-weight: 300;
+    color: #84898c;
+}
