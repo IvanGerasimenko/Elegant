@@ -5,12 +5,161 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav ul li {
+    margin-left: 30px;
+    display: inline-block;
+    list-style: none;
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.header__nav ul li a { 
+    display: flex; 
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 15px;
+}
+
+.header__nav ul li::after{
+    content: "";
+    background-color: rgba(42, 235, 219);
+    height: 2px;
+    width: 0;
+    display: block;
+    transition: .3s all;
+}
+
+.header__nav ul li:hover:after{
+    width: 70%;
+}
+
 .container__header{
+    width: 100%;
     max-width: 1200px;
     margin: auto;
 }
 
-.container{
-    max-width: 770px;
-    margin: auto;
+.header__top{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
+
+.m-top{
+    margin-top: 27px;
+}
+
+
+.header__bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 80px;
+}
+
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 80px;
+    margin-top: 200px;
+}
+
+.about__subcontent{
+    margin-bottom: 157px;
+}
+
+.about__inner{
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.about__inner span{
+    display: inline-block;
+    color: #747a7f;
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.about__subcontent span{
+    margin-bottom: 57px;
+}
+
+.about__subcontent p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #021725;
+    line-height: 1.6;
+    margin-bottom: 51px;
+}
+
+
+.about__subtitle{
+    font-size: 13px;
+    font-weight: 600;
+    color: #d4af37;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+
+.about__btn{
+    border: 2px solid #000;
+    padding: 12px 50px;
+    color: #676d73;
+    font-size: 14px;
+    font-weight: 300;
+    transition: .3s all;
+}
+
+.about__btn:hover{
+    background-color: chocolate;
+    color: #fff;
+    border: 2px solid chocolate;
+}
+
+.images__top,
+.images__bottom{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.images__top img,
+.images__bottom img{
+    height: 300px;
+    width: 319px;
+    border-right: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+
+.images{
+    margin-bottom: 153px;
+}
+
+
