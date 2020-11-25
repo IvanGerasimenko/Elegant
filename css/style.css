@@ -124,7 +124,8 @@ h1{
 
 
 .about__subtitle,
-.people__subtitle{
+.people__subtitle,
+.post__subtitle{
     font-size: 13px;
     font-weight: 600;
     color: #d4af37;
@@ -132,16 +133,18 @@ h1{
     text-transform: uppercase;
 }
 
-.about__btn{
+.about__btn,
+.post__btn{
     border: 2px solid #000;
-    padding: 12px 50px;
+    padding: 12px 25px;
     color: #676d73;
     font-size: 14px;
     font-weight: 300;
     transition: .3s all;
 }
 
-.about__btn:hover{
+.about__btn:hover,
+.post__btn:hover{
     background-color: chocolate;
     color: #fff;
     border: 2px solid chocolate;
@@ -207,4 +210,65 @@ h1{
     font-size: 13px;
     font-weight: 300;
     color: #84898c;
+}
+
+.people__contacts{
+    margin-bottom: 161px;
+}
+
+.post{
+    margin-bottom: 170px;
+}
+
+.post__title{
+    text-align: center;
+}
+
+.post__title{
+    text-align: center;
+    color: #747a7f;
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.post__data{
+    display: flex;
+    background-color: #f9f9f9;
+    margin-bottom: 90px;
+}
+
+.post__data__title{
+    padding: 40px 22px 60px;
+}
+
+.data{
+    color: #505d68;
+    font-size: 13px;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.post__space{
+    font-size: 30px;
+    font-weight: 400;
+    color: #505d68;
+    margin-bottom: 30px;
+}
+
+.post__data__title p{
+    color: #505d68;
+    font-size: 13px;
+    line-height: 1.6;
+    width: 250px;
+    margin-bottom: 60px;
+}
+
+.post__btn__two{
+    text-align: center;
+}
+
+.post__btn__bottom{
+    text-align: center;
 }
