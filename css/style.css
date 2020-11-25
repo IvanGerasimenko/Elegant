@@ -125,7 +125,8 @@ h1{
 
 .about__subtitle,
 .people__subtitle,
-.post__subtitle{
+.post__subtitle,
+.location__subtitle{
     font-size: 13px;
     font-weight: 600;
     color: #d4af37;
@@ -220,16 +221,19 @@ h1{
     margin-bottom: 170px;
 }
 
-.post__title{
+.post__text,
+.location__text{
     text-align: center;
 }
 
-.post__title{
+.post__title,
+.location__title{
     text-align: center;
     color: #747a7f;
     font-size: 44px;
     font-weight: 600;
     margin-bottom: 50px;
+    display: inline-block;
 }
 
 .post__data{
@@ -272,3 +276,55 @@ h1{
 .post__btn__bottom{
     text-align: center;
 }
+
+.maps img{
+    display: block;
+    width: 100%;
+}
+
+.location__bg{
+    background-color: #f9f9f9;
+    padding: 50px 35px 46px;
+}
+
+.location__info__one,
+.location__info__two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title__street,
+.title__phone,
+.fax__title,
+.emain__title{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #021725;
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.street{
+    margin-bottom: 95px;
+}
+
+
+.street p,
+.phone p,
+.fax p,
+.email p{
+    width: 230px;
+    color: #b1b5b9;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.8;
+    letter-spacing: 0.7;
+    text-align: center;
+}
+
+.location{
+    margin-bottom: 86px;
+}
+
