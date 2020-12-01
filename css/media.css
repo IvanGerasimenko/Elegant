@@ -1,0 +1,161 @@
+@media  (max-width: 992px) {
+    .header__nav {
+        display: none;
+    }
+
+    .toggler__menu span{
+        display: block;
+    }
+    .container__header{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(84, 90, 91, 0.6);
+        margin-top: 0;
+        padding: 50px 0px;
+    }
+
+    .header__bg{
+        background-image: url('../images/mobile-2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .about__subtitle{
+        font-size: 10px;
+    }
+
+    .about__inner span{
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 798px){
+    h1{
+        font-size: 50px;
+    }
+    .about__subtitle,
+    .people__subtitle,
+    .post__subtitle,
+    .location__subtitle{
+        font-size: 24px;
+    }
+    .about__inner span,
+    .people__inner span,
+    .about__subcontent span,
+    .people__subcontent span{
+        font-size: 35px;
+    }
+
+    .people__supcontent{
+        display: flex;
+        flex-direction: row;
+    }
+
+   
+
+    .contact__face{
+        margin-bottom: 15px;
+    }
+    .post__data__title span,
+    .post__space,
+    .post__btn{
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .post__data__title p{
+        font-size: 25px;
+    }
+    .post__data{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 65px;
+    }
+
+    .post__data img{
+        width: 100%;
+    }
+    .location__info__one,
+    .location__info__two{
+        display: block;
+    }
+
+
+    .images__top,
+    .images__bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .images__top img,
+    .images__bottom img{
+        width: 80%;
+    }
+
+    .d-footer{
+        display: block;
+        width: 50%;
+    }
+}
+
+
+
+@media (max-width: 680px){
+    h1{
+        font-size: 50px;
+    }
+    .about__inner span,
+    .people__inner span{
+        padding: 0px 15px;
+    }
+    .about__subcontent p,
+    .people__subcontent p{
+
+        padding: 0px 50px;
+    }
+    .people__supcontent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact__face{
+        margin-bottom: 15px;
+    }
+    .post__data{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+        padding: 0px 15px;
+        width: 100%;
+    }
+
+    .post__data img{
+        width: 100%;
+    }
+   
+    .location__info__one,
+    .location__info__two{
+        display: block;
+    }
+
+    .images__top,
+    .images__bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .images__top img,
+    .images__bottom img{
+        width: 90%;
+    }
+
+    .d-footer{
+        display: block;
+        width: 50%;
+    }
+}
