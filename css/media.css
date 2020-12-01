@@ -7,14 +7,14 @@
         display: none;
     }
 
-    .toggler__menu span{
+    .hamburger-menu{
         display: block;
-        width: 30px;
-        height: 3px;
-        background-color: #fff;
-        margin-bottom: 5px;
-        cursor: pointer;
     }
+
+    .toggler__menu ul li a{
+        display: block;
+    }
+
 
     .container__header{
         display: flex;
