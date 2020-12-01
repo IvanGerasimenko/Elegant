@@ -1,4 +1,8 @@
 @media  (max-width: 992px) {
+    .container{
+        overflow: hidden;
+    }
+    
     .header__nav {
         display: none;
     }
