@@ -5,7 +5,13 @@
 
     .toggler__menu span{
         display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin-bottom: 5px;
+        cursor: pointer;
     }
+
     .container__header{
         display: flex;
         justify-content: space-around;
