@@ -143,6 +143,7 @@ h1{
     font-size: 14px;
     font-weight: 300;
     transition: .3s all;
+    outline: none;
 }
 
 .about__btn:hover,
@@ -392,6 +393,8 @@ h1{
     display: inline-block;
 }
 
+
+
 .owl-dots .owl-dot span{
     display: inline-block;
     width: 10px;
@@ -496,4 +499,21 @@ h1{
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     left: 0;
+  }
+
+
+  .ui-dialog{
+      background-color: rgb(209, 128, 128);
+      padding: 20px;
+      color: #fff;
+      max-width: 700px;
+      height: 200px;
+      outline: none;
+  }
+
+
+  .ui-dialog-titlebar-close{
+      margin-left: 50px;
+      margin-bottom: 15px;
+      cursor: pointer;
   }
